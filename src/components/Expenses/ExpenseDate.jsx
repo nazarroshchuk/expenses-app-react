@@ -1,6 +1,6 @@
 import React from "react";
 import classes from './ExpenseDate.module.css';
-import { Card } from "./Card";
+import { Card } from "../UI/Card";
 
 export const ExpenseDate = ({ date }) => {
     const month = date.toLocaleString('en-US', { month: 'long' });
